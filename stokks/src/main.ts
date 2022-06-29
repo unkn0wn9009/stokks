@@ -10,3 +10,9 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+
+/*
+API KEY: 636fdd65bad98ebd68cffab18427caff
+API URL: http://api.marketstack.com/v1/
+*/

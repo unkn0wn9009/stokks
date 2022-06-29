@@ -5,6 +5,11 @@
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
+    "run:android": "ionic capacitor run android",
+    "run:live:android": "ionic capacitor run android -l --external",
+    "run:ios": "ionic capacitor run ios",
+    "run:live:ios": "ionic cap run ios -l --external",
+    "ionic serve": "ionic serve",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -25,6 +30,7 @@
     "@capacitor/keyboard": "1.2.3",
     "@capacitor/status-bar": "1.0.8",
     "@ionic/angular": "^6.1.9",
+    "@ionic/lab": "^3.2.13",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
