@@ -1,0 +1,7 @@
+{
+  "name": "Stokks",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
