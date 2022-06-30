@@ -1,4 +1,5 @@
 {
+  "postinstall": "[...] && node ./patch.js",
   "name": "stokks",
   "version": "0.0.1",
   "author": "Ionic Framework",
@@ -11,6 +12,7 @@
     "run:live:ios": "ionic cap run ios -l --external",
     "ionic serve": "ionic serve",
     "start": "ng serve",
+    "ionic lab": "ionic serve --lab",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -31,6 +33,9 @@
     "@capacitor/status-bar": "1.0.8",
     "@ionic/angular": "^6.1.9",
     "@ionic/lab": "^3.2.13",
+    "finnhub": "^1.2.14",
+    "promise-polyfill": "8.2.3",
+    "querystring-es3": "^0.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
